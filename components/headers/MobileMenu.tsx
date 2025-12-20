@@ -133,7 +133,7 @@ export default function MobileMenu() {
               <div className="main-menu">
                 <nav className="main-menu__content">
                   <ul id="main-menu" className="main-menu__accordion">
-                    {menuItems.map((item, index) => (
+                    {menuItems.map((item: any, index) => (
                       <li
                         key={index}
                         className="main-menu__item fade-in-up-elm"
@@ -178,7 +178,7 @@ export default function MobileMenu() {
                                 submenuRefs.current[index] = el;
                               }}
                             >
-                              {item.submenu.map((sub, i) => (
+                              {item.submenu.map((sub: any, i: number) => (
                                 <li
                                   key={i}
                                   className={`submenu__item ${isMenuActive(sub.href) ? "active" : ""
