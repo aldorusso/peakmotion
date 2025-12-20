@@ -35,8 +35,6 @@ export default function Header1() {
             style={{
               width: 'auto',
               height: 'auto',
-              maxHeight: '60px',
-              minWidth: '150px',
               objectFit: 'contain'
             }}
           />
@@ -52,8 +50,6 @@ export default function Header1() {
             style={{
               width: 'auto',
               height: 'auto',
-              maxHeight: '60px',
-              minWidth: '150px',
               objectFit: 'contain',
               position: 'absolute',
               top: 0,
@@ -61,6 +57,21 @@ export default function Header1() {
             }}
           />
           <style jsx global>{`
+            /* Base styles for logos */
+            .mxd-logo__image {
+              max-height: 60px;
+              min-width: 150px;
+            }
+
+            /* Responsive styles for mobile */
+            @media (max-width: 768px) {
+              .mxd-logo__image {
+                max-height: 32px !important;
+                min-width: unset !important;
+                max-width: 120px;
+              }
+            }
+
             /* Default to showing light logo (for light theme) */
             .logo-light { opacity: 1; visibility: visible; transition: opacity 0.3s; }
             .logo-dark { opacity: 0; visibility: hidden; transition: opacity 0.3s; }
