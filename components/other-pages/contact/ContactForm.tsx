@@ -24,9 +24,9 @@ export default function ContactForm() {
     try {
       await fsSubmit(data); // submit to Formspree
       reset(); // reset form fields
-      toast.success("Message sent — thanks!");
+      toast.success("Mensaje enviado — ¡gracias!");
     } catch {
-      toast.error("Submission failed — please try again later.");
+      toast.error("El envío falló — por favor, inténtalo de nuevo más tarde.");
     }
   };
 
@@ -45,10 +45,9 @@ export default function ContactForm() {
                         {/* Reply Messages */}
                         <div className="form__reply centered text-center">
                           <i className="ph-fill ph-smiley-wink reply__icon" />
-                          <p className="reply__title">Done!</p>
+                          <p className="reply__title">¡Listo!</p>
                           <span className="reply__text">
-                            Thanks for your message. We&apos;ll get back as soon
-                            as possible.
+                            Gracias por tu mensaje. Te responderemos lo antes posible.
                           </span>
                         </div>
                         {/* Contact Form */}
@@ -79,7 +78,7 @@ export default function ContactForm() {
                               <div className="col-12 col-md-6 mxd-grid-item anim-uni-in-up">
                                 <input
                                   type="text"
-                                  placeholder="Your name*"
+                                  placeholder="Tu nombre*"
                                   {...register("Name")}
                                 />
                                 {errors.Name && (
@@ -91,14 +90,14 @@ export default function ContactForm() {
                               <div className="col-12 col-md-6 mxd-grid-item anim-uni-in-up">
                                 <input
                                   type="text"
-                                  placeholder="Company name"
+                                  placeholder="Nombre de la empresa"
                                   {...register("Company")}
                                 />
                               </div>
                               <div className="col-12 col-md-6 mxd-grid-item anim-uni-in-up">
                                 <input
                                   type="email"
-                                  placeholder="Email*"
+                                  placeholder="Correo electrónico*"
                                   {...register("E-mail")}
                                 />
                                 {errors["E-mail"] && (
@@ -110,13 +109,13 @@ export default function ContactForm() {
                               <div className="col-12 col-md-6 mxd-grid-item anim-uni-in-up">
                                 <input
                                   type="tel"
-                                  placeholder="Phone"
+                                  placeholder="Teléfono"
                                   {...register("Phone")}
                                 />
                               </div>
                               <div className="col-12 mxd-grid-item anim-uni-in-up">
                                 <textarea
-                                  placeholder="A few words about your project*"
+                                  placeholder="Unas palabras sobre tu proyecto*"
                                   {...register("Message")}
                                 />
                                 {errors.Message && (
@@ -127,7 +126,7 @@ export default function ContactForm() {
                               </div>
                               <div className="col-12 mxd-grid-item anim-uni-in-up">
                                 <AnimatedButton
-                                  text="Submit"
+                                  text="Enviar"
                                   position={"next"}
                                   as={"button"}
                                   className="btn btn-anim btn-default btn-large btn-opposite slide-right-up"
