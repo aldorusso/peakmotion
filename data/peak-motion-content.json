@@ -1,0 +1,58 @@
+{
+    "hero": {
+        "title": "Donde la montaña se convierte en cine",
+        "subtitle": "y la montaña en nuestra causa",
+        "description": "Somos una agencia creativa especializada en producción audiovisual cinematográfica para trail running y mountain sports, con un compromiso ambiental real.",
+        "cta": "Trabajar con Peak Motion"
+    },
+    "valueProposition": {
+        "title": "Nuestra Diferencia",
+        "items": [
+            {
+                "title": "Especialización 100% Trail",
+                "description": "Solo mountain sports con una estética cinematográfica minimalista que capta la esencia real del deporte."
+            },
+            {
+                "title": "Gestión Integral",
+                "description": "Fusión de producción audiovisual, redes y branding para generar un crecimiento orgánico medible."
+            },
+            {
+                "title": "Sostenibilidad Real",
+                "description": "Acciones concretas de conservación: recuperación de senderos, recogida de basura y restauración de zonas quemadas."
+            },
+            {
+                "title": "Modelo Justo",
+                "description": "Tarifa base accesible + bonos por visualizaciones/interacciones, sin riesgos para marcas."
+            }
+        ]
+    },
+    "mission": "Contar historias visuales auténticas del mundo del trail running, inspirando a la comunidad a conectar con la naturaleza y promoviendo el respeto por el entorno en cada paso.",
+    "vision": "Un futuro donde el trail running no solo sea una disciplina deportiva, sino una forma de vida que une a personas, historias y marcas con un profundo compromiso medioambiental y una narrativa honesta.",
+    "values": [
+        {
+            "title": "Autenticidad",
+            "description": "Cada historia que contamos refleja la realidad de los corredores y la belleza del entorno natural."
+        },
+        {
+            "title": "Compromiso ambiental",
+            "description": "Cuidamos la montaña tanto como la documentamos, integrando acciones concretas para reducir el impacto ambiental."
+        },
+        {
+            "title": "Pasión por el trail",
+            "description": "Vivimos el trail running no solo como un deporte, sino como una comunidad y una fuente de inspiración constante."
+        }
+    ],
+    "story": {
+        "title": "Nuestra Historia",
+        "content": "Nuestra historia comienza en las sendas de montaña, donde tres apasionados del trail descubrieron que sus rutas tenían algo más que kilómetros: tenían historias esperando a ser contadas. Con la idea de fusionar la pasión por el trail running con el arte de narrar visualmente, nació una marca en la que los protagonistas sois vosotros. Una marca que deja en manos de la comunidad y de la montaña el verdadero rostro de cada historia."
+    },
+    "contact": {
+        "email": "info@peakmotion.es",
+        "phones": [
+            "633815083",
+            "636499798"
+        ],
+        "location": "Cáceres, España",
+        "hours": "09:00 - 19:00 hrs"
+    }
+}

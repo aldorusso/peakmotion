@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Óscar Escribano",
+        "role": "Fundador & Motor Estratégico",
+        "title": "De la Crisis a la Misión",
+        "bio": "Óscar no es solo un guía; es la encarnación de la transformación. Tras dos décadas dedicadas a la gestión deportiva, su cuerpo y mente marcaron un límite. La ansiedad y el insomnio se disiparon encontrando su terapia más efectiva: la montaña. Peak Motion nace de esa liberación.",
+        "expertise": [
+            "Gestión del Miedo",
+            "Ritmo y Estrategia",
+            "Mentalidad y Disfrute"
+        ],
+        "quote": "La montaña me devolvió la vida. Mi misión es compartir contigo esa misma herramienta y asegurarme de que tu única preocupación sea disfrutar del camino.",
+        "image": "/img/team/oscar-placeholder.webp",
+        "visible": false
+    },
+    {
+        "name": "Aitor González",
+        "role": "Guía Técnico & Seguridad",
+        "title": "La Garantía Técnica y de Alto Rendimiento",
+        "bio": "Con 11 años de experiencia en montaña y la formación oficial de Guía de Montaña Certificado, Aitor es la doble garantía de seguridad y rigor. Formado en la detección de jóvenes talentos de la FEXME y Campeón de España Junior, usa ese conocimiento de élite para simplificar la montaña y la técnica.",
+        "expertise": [
+            "Guía de Montaña Certificado",
+            "Alto Rendimiento",
+            "Técnica de Trail"
+        ],
+        "quote": "La élite te da el conocimiento, pero la experiencia te enseña a simplificarlo. Aquí aplicamos el rigor de la competición para que cualquier corredor pueda dominar la técnica y disfrutar sin riesgos.",
+        "image": "/img/team/aitor-placeholder.webp",
+        "visible": false
+    },
+    {
+        "name": "Víctor García Pérez",
+        "role": "Director Visual",
+        "title": "La Lente que Captura tu Esencia",
+        "bio": "Víctor no es solo un fotógrafo; es el Narrador Visual de Peak Motion. Se especializa en la fotografía de acción y en la esencia emocional del trail running. Su lente se centra en la emoción cruda del esfuerzo, la fluidez de la zancada y la euforia de la cima.",
+        "expertise": [
+            "Estética Cinematográfica",
+            "Fotografía de Acción",
+            "Narrativa Visual"
+        ],
+        "quote": "Olvídate del móvil en la mano; céntrate en la zancada. Yo me encargo de inmortalizar la humildad de la subida, la adrenalina de la bajada y la euforia de la cima.",
+        "image": "/img/team/victor-placeholder.webp",
+        "visible": false
+    }
+]

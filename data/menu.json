@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Inicio",
+    "href": "/home-web-agency"
+  },
+  {
+    "title": "Servicios",
+    "href": "/servicios"
+  },
+  {
+    "title": "Atletas",
+    "href": "/atletas"
+  },
+  {
+    "title": "Eventos",
+    "href": "/eventos"
+  },
+  {
+    "title": "Material",
+    "href": "/material"
+  },
+  {
+    "title": "Galería",
+    "href": "/galeria"
+  },
+  {
+    "title": "Contacto",
+    "href": "/contact"
+  }
+]

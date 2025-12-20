@@ -1,0 +1,74 @@
+[
+  {
+    "img": "/img/pm/service-1.jpg",
+    "title": "Narrativa de Senda",
+    "subtitle": "Documentales de Evento y Resúmenes Épicos",
+    "tags": [
+      "Documentales",
+      "Eventos",
+      "Trail Running",
+      "Carreras"
+    ],
+    "desc": "Producción completa de piezas audiovisuales destinadas a capturar la esencia, la dureza y la emoción de carreras y quedadas de trail running. Desde vídeos de resumen dinámicos hasta documentales de 5-15 minutos con entrevistas profundas.",
+    "benefits": [
+      "Inmortalización de Marca",
+      "Impulso Promocional",
+      "Estética Cinematográfica"
+    ],
+    "target": "Organizadores de eventos de trail y carreras de montaña"
+  },
+  {
+    "img": "/img/pm/service-2.jpg",
+    "title": "Visuales de Vanguardia Outdoor",
+    "subtitle": "Campañas de Producto y Lanzamiento de Marca",
+    "tags": [
+      "Fotografía",
+      "Producto",
+      "Campañas",
+      "Material"
+    ],
+    "desc": "Campañas de fotografía y vídeo spot enfocadas en la presentación de productos técnicos en entornos naturales auténticos. Creamos escenarios que ponen a prueba el producto, priorizando la verdad del entorno sobre los efectos artificiales.",
+    "benefits": [
+      "Asociación de Valores",
+      "Contenido de Review de Autoridad",
+      "Impacto Visual Directo"
+    ],
+    "target": "Marcas deportivas y de outdoor que buscan un enfoque sostenible y auténtico"
+  },
+  {
+    "img": "/img/pm/service-3.jpg",
+    "title": "Ruta Personalizada del Atleta",
+    "subtitle": "Branding Integral para Atletas",
+    "tags": [
+      "Branding",
+      "Redes Sociales",
+      "Atletas",
+      "Estrategia"
+    ],
+    "desc": "Servicio integral de branding, estrategia de contenido y gestión de redes sociales para atletas de trail running. Transformamos al corredor en una figura de autoridad con una historia y un estilo visual definidos.",
+    "benefits": [
+      "Atracción de Patrocinadores",
+      "Consistencia de Marca",
+      "Foco en el Rendimiento"
+    ],
+    "target": "Atletas de trail que buscan profesionalizar su imagen y conseguir mejores patrocinios"
+  },
+  {
+    "img": "/img/pm/service-4.jpg",
+    "title": "Compromiso Ambiental 360",
+    "subtitle": "Consultoría de Sostenibilidad + Acción Real",
+    "tags": [
+      "Sostenibilidad",
+      "Conservación",
+      "Medio Ambiente",
+      "Impacto"
+    ],
+    "desc": "Consultoría, planificación y producción de contenido que documenta acciones concretas de sostenibilidad: recogida de basura, restauración de senderos quemados. Integración de la filosofía de sostenibilidad en la estrategia de la marca o evento.",
+    "benefits": [
+      "Credibilidad Inmediata",
+      "Asociación Positiva",
+      "Narrativa de Impacto"
+    ],
+    "target": "Organizadores y Marcas que necesitan proyectar un compromiso ambiental fuerte y verificable"
+  }
+]
