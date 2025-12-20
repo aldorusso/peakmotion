@@ -25,7 +25,10 @@ export default function ContactPage() {
         <div className="mxd-section padding-grid-pre-mtext">
           <div className="mxd-container">
             <div className="mxd-divider">
-              <BackgroundParallax className="mxd-divider__image divider-image-3 parallax-img" />
+              <BackgroundParallax
+                className="mxd-divider__image divider-image-3 parallax-img"
+                style={{ backgroundImage: "url(/img/pm/hero.jpg)" }}
+              />
             </div>
           </div>
         </div>

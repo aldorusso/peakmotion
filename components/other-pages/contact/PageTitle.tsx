@@ -51,9 +51,9 @@ export default function PageTitle() {
                     </h1>
                     <a
                       className="btn btn-line-headline slide-right-up anim-no-delay"
-                      href="mailto:example@example.com?subject=Message%20from%20your%20site"
+                      href="mailto:info@peakmotion.es?subject=Mensaje%20desde%20la%20web"
                     >
-                      <span className="btn-caption">hello@rayo.com</span>
+                      <span className="btn-caption">info@peakmotion.es</span>
                       <i className="ph-bold ph-arrow-up-right" />
                     </a>
                     <p className="inner-headline__text t-large t-bright loading__item">
