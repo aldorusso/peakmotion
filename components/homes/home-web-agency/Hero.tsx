@@ -77,7 +77,15 @@ export default function Hero() {
               </div>
             </div>
             <div className="mxd-hero-05__videoblock loading__item">
-              <div className="mxd-hero-05-videoblock__video">
+              <div
+                className="mxd-hero-05-videoblock__video"
+                style={{
+                  overflow: "hidden",
+                  position: "relative",
+                  width: "100%",
+                  height: "100%",
+                }}
+              >
                 <iframe
                   width="100%"
                   height="100%"
@@ -87,13 +95,13 @@ export default function Hero() {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                   style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    objectFit: 'cover',
-                    pointerEvents: 'none' // Evita interacción para que actúe como fondo
+                    position: "absolute",
+                    top: "50%",
+                    left: "50%",
+                    width: "100%",
+                    height: "100%",
+                    transform: "translate(-50%, -50%) scale(1.55)", // Escala moderada para calidad vs cobertura
+                    pointerEvents: "none",
                   }}
                 />
               </div>

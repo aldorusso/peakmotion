@@ -28,9 +28,10 @@ export default function Cta() {
                     <Image
                       alt="Peak Motion Icon"
                       src="/img/logo-peakmotion-white.png"
-                      width={80}
-                      height={80}
-                      style={{ objectFit: 'contain' }}
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '20%', height: 'auto', objectFit: 'contain' }}
                     />
                   </span>
                   <RevealText

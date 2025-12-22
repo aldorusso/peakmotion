@@ -29,55 +29,47 @@ export default function GaleriaPage() {
                     </div>
                 </div>
 
-                {/* Placeholder Content */}
+                {/* Gallery Content */}
                 <div className="mxd-section">
                     <div className="mxd-container">
                         <div className="container-fluid px-0">
-                            <div className="row gx-0 justify-content-center">
-                                <div className="col-12 col-md-8 text-center mxd-grid-item">
-                                    <div style={{ padding: "4rem 2rem", background: "var(--pm-black)", borderRadius: "8px" }}>
-                                        <h2 className="h2-large">Próximamente</h2>
-                                        <p className="t-large" style={{ marginTop: "1.5rem", marginBottom: "2rem" }}>
-                                            Estamos preparando nuestro portfolio audiovisual con los mejores proyectos
-                                            de trail running y mountain sports. Mientras tanto, contáctanos para ver
-                                            muestras de nuestro trabajo.
-                                        </p>
-                                        <AnimatedButton
-                                            text="Contacto"
-                                            className="btn btn-anim btn-default btn-outline slide-right-up"
-                                            href="/contact"
+                            <div className="row">
+                                <div className="col-12">
+                                    {/* Google Drive Embed */}
+                                    <div className="google-drive-embed" style={{
+                                        position: 'relative',
+                                        width: '100%',
+                                        height: '800px',
+                                        background: 'var(--pm-black)',
+                                        borderRadius: '8px',
+                                        overflow: 'hidden',
+                                        border: '1px solid rgba(255, 255, 255, 0.1)'
+                                    }}>
+                                        <iframe
+                                            src="https://drive.google.com/embeddedfolderview?id=1LEFvtCt6JfZlndZwE2Li-Hjh7isODS4v#grid"
+                                            style={{
+                                                width: '100%',
+                                                height: '100%',
+                                                border: 'none'
+                                            }}
+                                            title="Galería Peak Motion"
+                                            allowFullScreen
+                                            sandbox="allow-scripts allow-popups allow-same-origin allow-popups-to-escape-sandbox allow-forms"
+                                        />
+                                    </div>
+                                    <div className="text-center mt-4">
+                                        <a
+                                            href="https://drive.google.com/drive/folders/1LEFvtCt6JfZlndZwE2Li-Hjh7isODS4v?usp=sharing"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="btn btn-default btn-outline"
+                                            style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}
                                         >
-                                            <i className="ph-bold ph-arrow-up-right" />
-                                        </AnimatedButton>
+                                            <i className="ph-bold ph-google-logo" />
+                                            Abrir Galería Completa en Drive
+                                        </a>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Future Portfolio Grid Placeholder */}
-                <div className="mxd-section">
-                    <div className="mxd-container">
-                        <div className="container-fluid px-0">
-                            <div className="row g-4">
-                                {[1, 2, 3, 4, 5, 6].map((item) => (
-                                    <div key={item} className="col-12 col-md-6 col-lg-4">
-                                        <div
-                                            className="mxd-grid-item"
-                                            style={{
-                                                aspectRatio: "16/9",
-                                                background: "var(--pm-black)",
-                                                display: "flex",
-                                                alignItems: "center",
-                                                justifyContent: "center",
-                                                borderRadius: "4px"
-                                            }}
-                                        >
-                                            <p className="t-muted">Proyecto {item}</p>
-                                        </div>
-                                    </div>
-                                ))}
                             </div>
                         </div>
                     </div>
