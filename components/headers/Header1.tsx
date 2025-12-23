@@ -21,7 +21,7 @@ export default function Header1() {
 
   return (
     <header id="header" className={`mxd-header ${isHidden ? "is-hidden" : ""} ${pathname === '/' ? 'is-home-header' : ''}`}>
-      <div className="mxd-header__logo loading__fade">
+      <div className="mxd-header__logo">
         <Link href={`/`} className="mxd-logo" style={{ maxWidth: 'none', position: 'relative' }}>
           {/* Logo for Light Mode (Dark text/icon) */}
           <Image
@@ -92,13 +92,6 @@ export default function Header1() {
                color: #fff !important;
                border-color: rgba(255,255,255,0.3) !important;
             }
-            /* Hamburger Menu Override for Home */
-            .is-home-header ~ .mxd-nav__wrap .mxd-nav__hamburger .hamburger__line {
-               background-color: #fff !important;
-            }
-            .is-home-header ~ .mxd-nav__wrap .mxd-nav__hamburger .hamburger__base {
-               border-color: rgba(255,255,255,0.3) !important;
-            }
             /* Ensure Header is above video */
             .mxd-header {
               z-index: 1000;
@@ -107,7 +100,7 @@ export default function Header1() {
         </Link>
       </div>
       {/* header controls */}
-      <div className="mxd-header__controls loading__fade">
+      <div className="mxd-header__controls">
         <ThemeSwitcherButton />
 
         <AnimatedButton

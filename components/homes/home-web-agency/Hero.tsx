@@ -70,27 +70,7 @@ export default function Hero() {
 
       {/* Force Header elements to White when class is present */}
       <style jsx global>{`
-        /* 1. LOGO: Force white logo visible, black logo hidden by DISPLAY */
-        body.hero-mode-active .mxd-header .logo-light {
-           display: none !important;
-        }
-        body.hero-mode-active .mxd-header .logo-dark {
-           opacity: 1 !important;
-           visibility: visible !important;
-           display: block !important;
-           top: 0;
-           left: 0;
-           position: relative !important; 
-        }
-        
-        /* 2. MENU ICONS: Theme Switcher & Contact Button */
-        body.hero-mode-active .mxd-header .theme-switcher-btn,
-        body.hero-mode-active .mxd-header .btn-mobile-icon {
-           color: #fff !important;
-           border-color: rgba(255,255,255,0.3) !important;
-        }
-
-        /* 3. HAMBURGER MENU: Force lines directly to white */
+        /* 1. HAMBURGER MENU: Force lines directly to white */
         body.hero-mode-active .mxd-nav__hamburger .hamburger__line {
            background-color: #ffffff !important;
         }
