@@ -20,7 +20,7 @@ export default function Header1() {
   }, []);
 
   return (
-    <header id="header" className={`mxd-header ${isHidden ? "is-hidden" : ""}`}>
+    <header id="header" className={`mxd-header ${isHidden ? "is-hidden" : ""} ${pathname === '/' ? 'is-home-header' : ''}`}>
       <div className="mxd-header__logo loading__fade">
         <Link href={`/`} className="mxd-logo" style={{ maxWidth: 'none', position: 'relative' }}>
           {/* Logo for Light Mode (Dark text/icon) */}
@@ -72,13 +72,37 @@ export default function Header1() {
               }
             }
 
-            /* Default to showing light logo (for light theme) */
+            /* Default Theme Logic */
             .logo-light { opacity: 1; visibility: visible; transition: opacity 0.3s; }
             .logo-dark { opacity: 0; visibility: hidden; transition: opacity 0.3s; }
-
-            /* When dark theme is active */
             html[color-scheme="dark"] .logo-light { opacity: 0; visibility: hidden; }
             html[color-scheme="dark"] .logo-dark { opacity: 1; visibility: visible; }
+
+            /* HOME PAGE OVERRIDE (Forcing Dark Mode style for Hero Video) */
+            .is-home-header .logo-light {
+              display: none !important;
+            }
+            .is-home-header .logo-dark {
+              display: block !important;
+              opacity: 1 !important;
+              visibility: visible !important;
+            }
+            .is-home-header .theme-switcher-btn,
+            .is-home-header .btn-mobile-icon {
+               color: #fff !important;
+               border-color: rgba(255,255,255,0.3) !important;
+            }
+            /* Hamburger Menu Override for Home */
+            .is-home-header ~ .mxd-nav__wrap .mxd-nav__hamburger .hamburger__line {
+               background-color: #fff !important;
+            }
+            .is-home-header ~ .mxd-nav__wrap .mxd-nav__hamburger .hamburger__base {
+               border-color: rgba(255,255,255,0.3) !important;
+            }
+            /* Ensure Header is above video */
+            .mxd-header {
+              z-index: 1000;
+            }
           `}</style>
         </Link>
       </div>
